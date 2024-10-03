@@ -48,3 +48,18 @@ body {
     background: #60CBFF;
 }
 
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls i{
+    padding: 25px 0;
+    color: #B8C6DC;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: calc(100% / 4);
+    border-right: 1px solid #171b26;
+}
+
